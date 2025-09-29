@@ -1,3 +1,4 @@
+/* https://www.protectedtext.com/estacio */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -59,3 +60,4 @@ section{
     height: 50%;/*altura em 50%*/
     border-radius: 25px;/*arredonda a borda da imagem*/
 }
+
