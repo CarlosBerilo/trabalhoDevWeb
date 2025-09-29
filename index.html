@@ -1,8 +1,108 @@
-<html>
-    <head>
-        
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechSolution - Empresa de TI</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+<!--AULA WEB 19SET25-->
+  <header>
+    <h1>TechSolution</h1>
+    <p>Inovando com tecnologia</p>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <h2>Bem-vindo à TechSolution</h2>
+      <p>Somos uma empresa de tecnologia focada em soluções inovadoras para o seu negócio.</p>
+      <a href="#contato">Fale conosco</a>
+    </section>
+    <!--Inicio da seção bem-vindo-->
+    <section id="sobre">
+      <img src="assets/img/Qual-a-tecnologia.jpg" alt="Equipe TechSolution">
+      <div>
+        <h2>Sobre Nós</h2>
+        <p>Com mais de 10 anos no mercado, oferecemos serviços especializados em desenvolvimento de software,
+            infraestrutura de TI e consultoria tecnológica.</p>
+        </div>
+    </section>
+    <!--Fim Bem-vindo-->
+
+
+    <!--Inicio da Seção Serviços-->
+    <section>
+      <h2 id="servicos">Serviços</h2>
+      <div class="card">
+        <h3>Desenvolvimento Web</h3>
+        <p>Sites e sistemas responsivos sob medida.</p>
+      </div>
+
+      <div>
+        <h3>Transformação Digital</h3>
+        <p>Consultoria para digitalizar o seu negócio.</p>
+      </div>
+
+      <div>
+        <h3>Infraestrutura</h3>
+        <p>Suporte completo para sua estrutura de TI.</p>
+      </div>
+
+      <div>
+        <h3>Segurança</h3>
+        <p>Proteja seus dados com as melhores práticas.</p>
+      </div>
+    </section>
+    <!--Fim Serviços-->
+
+    <!-- Inicio da Seção Portfólio-->
+    <section id="portfolio">
+      <h2>Portfólio</h2>
+      <img src="assets/img/e-commerce.jpg" alt="E-commerce">
+      <h3>E-commerce</h3>
+      <p>Plataforma robusta para vendas online.</p>
+
+      <img src="assets/img/gestao-hospitalar.jpg" alt="Gestão Hospitalar">
+      <h3>Gestão Hospitalar</h3>
+      <p>Sistema completo para hospitais e clínicas.</p>
+      <img src="assets/img/delivery.jpg" alt="Delivery App">
+      <h3>Delivery App</h3>
+      <p>Aplicativo intuitivo para entrega de pedidos.</p>
+      <img src="assets/img/dashboard-financeiro.png" alt="Dashboard Financeiro">
+      <h3>Dashboard Financeiro</h3>
+      <p>Visualização interativa de indicadores financeiros.</p>
+    </section>
+    <!--Fim Portfólio-->
+
+    <!--Inicio Seção Contato-->
+    <section>
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para saber mais:</p>
+      <form action="mailto:contato@techsolution.com.br" method="post" enctype="text/plain">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu email" required>
+        <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar mensagem</button>
+      </form>
+      <!--Fim Contato-->
+    </section>
+  </main>
+  <!--Inicio Rodapé-->
+  <footer>
+    <p>&copy; 2025 TechSolution. Todos os direitos reservados.</p>
+  </footer>
+  <!--Fim Rodapé-->
+
+</body>
+
 </html>
+
