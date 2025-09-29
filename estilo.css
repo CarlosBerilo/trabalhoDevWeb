@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    color: rgb(50, 50, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background-color: hsla(250, 20%, 20%, alpha);*/
+}
+
+header{
+    max-width: 1200px;
+    background: linear-gradient(rgb(153, 45, 26), red);
+    /*background-color: rgb(180, 47, 23);*/
+    margin: 0 auto; /*margem superior e inferior zero e lateral auto*/
+    color: rgb(250, 250, 250);
+    text-align: center; /*centraliza texto*/
+    padding: 60px 20px;
+}
+
+nav{
+    margin: 20px;
+}
+
+nav a{
+    margin: 0 10px;
+    color: rgb(250, 250, 250);
+    text-decoration: none; /*aplic ou retira sublinhado*/
+    font-weight: bold;
+}
+
+nav a:hover{/*utilização de pseudoclasse*/
+    color: darkred;
+    text-decoration: underline;
+    border-bottom: 2px dashed darkred;
+}
+
+section{
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;/*vh = viewport height = altura da tela*/
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;/*direção dos itens flexiveis*/
+    justify-content: center;/*alinha elementos na vertical*/
+}
+
+#sobre{
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sobre img{
+    width: 50%;/*largura em 50%*/
+    height: 50%;/*altura em 50%*/
+    border-radius: 25px;/*arredonda a borda da imagem*/
+}
